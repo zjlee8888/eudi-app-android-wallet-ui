@@ -256,10 +256,10 @@ private fun IssuanceAddDocumentScreenPreview() {
             state = State(
                 navigatableAction = ScreenNavigateAction.NONE,
                 title = "Add document",
-                subtitle = "Select a document to add in your EUDI Wallet",
+                subtitle = "Select a document to add in your Fill Easy Wallet",
                 options = listOf(
                     DocumentOptionItemUi(
-                        text = "National ID",
+                        text = "Testing ID 1",
                         icon = AppIcons.Id,
                         type = DocumentType.PID,
                         available = true,
@@ -269,7 +269,13 @@ private fun IssuanceAddDocumentScreenPreview() {
                         icon = AppIcons.Id,
                         type = DocumentType.MDL,
                         available = false,
-                    )
+                    ),
+                            DocumentOptionItemUi(
+                            text = "Insurance Policy",
+                    icon = AppIcons.Id,
+                    type = DocumentType.MDL,
+                    available = false,
+                )
                 )
             ),
             effectFlow = Channel<Effect>().receiveAsFlow(),
@@ -289,20 +295,26 @@ private fun DashboardAddDocumentScreenPreview() {
             state = State(
                 navigatableAction = ScreenNavigateAction.CANCELABLE,
                 title = "Add document",
-                subtitle = "Select a document to add in your EUDI Wallet",
+                subtitle = "Select a document to add in your Fill Easy Wallet",
                 options = listOf(
                     DocumentOptionItemUi(
-                        text = "National ID",
+                        text = "Testing ID 1",
                         icon = AppIcons.Id,
                         type = DocumentType.PID,
                         available = true,
                     ),
                     DocumentOptionItemUi(
-                        text = "Driving License",
+                        text = "Insurance Policy",
                         icon = AppIcons.Id,
                         type = DocumentType.MDL,
                         available = false,
-                    )
+                    ),
+                    DocumentOptionItemUi(
+                    text = "Insurance Policy",
+                    icon = AppIcons.Id,
+                    type = DocumentType.MDL,
+                    available = false,
+                )
                 )
             ),
             effectFlow = Channel<Effect>().receiveAsFlow(),

@@ -1,3 +1,4 @@
+
 # EUDI Android Wallet reference application
 
 :heavy_exclamation_mark: **Important!** Before you proceed, please read

@@ -63,6 +63,7 @@
     <!-- Document Types -->
     <string name="pid">National ID</string>
     <string name="mdl">Driving License</string>
+    <string name="policy">Insurance Policy</string>
     <string name="conference_badge">EUDI Conference Badge</string>
     <string name="load_sample_data">Load Sample Documents</string>
 
@@ -111,7 +112,7 @@
     <!-- Request Screen -->
     <string name="request_title_before_badge">Verifier</string>
     <string name="request_title_after_badge">\ requests the following</string>
-    <string name="request_no_data">The requested document is not available in your EUDI Wallet.
+    <string name="request_no_data">The requested document is not available in your Fill Easy Wallet.
         Please contact the authorised issuer for further information.</string>
     <string name="request_subtitle_one">Please review carefully before sharing your data.</string>
     <string name="request_subtitle_two"> Why we need your data?</string>
@@ -191,7 +192,7 @@
     <!-- Issuance Add Document Screen -->
     <string name="issuance_add_document">@string/generic_continue_capitalized</string>
     <string name="issuance_add_document_title">Add document</string>
-    <string name="issuance_add_document_subtitle">Select a document to add in your EUDI Wallet</string>
+    <string name="issuance_add_document_subtitle">Select a document to add in your Fill Easy Wallet</string>
     <string name="issuance_add_document_user_auth_required">User authentication is required</string>
     <string name="issuance_add_document_qr_scan_section_title">Or</string>
     <string name="issuance_add_document_qr_scan_section_subtitle">SCAN QR</string>

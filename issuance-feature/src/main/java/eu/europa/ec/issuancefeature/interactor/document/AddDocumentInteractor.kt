@@ -81,7 +81,13 @@ class AddDocumentInteractorImpl(
                     icon = AppIcons.Id,
                     type = DocumentType.MDL,
                     available = canCreateMdl(flowType)
-                )
+                ),
+                        DocumentOptionItemUi(
+                        text = DocumentType.Policy.toUiName(resourceProvider),
+                icon = AppIcons.Id,
+                type = DocumentType.Policy,
+                available = canCreateMdl(flowType)
+            )
             )
             if (flowType == IssuanceFlowUiConfig.NO_DOCUMENT) {
                 options.add(

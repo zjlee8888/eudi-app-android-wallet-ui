@@ -28,6 +28,10 @@ enum class DocumentType(
         nameSpace = "org.iso.18013.5.1",
         docType = "org.iso.18013.5.1.mDL"
     ),
+    Policy(
+        nameSpace = "org.iso.18013.5.1",
+        docType = "org.iso.18013.5.1.policy"
+    ),
     CONFERENCE_BADGE(
         nameSpace = "com.example.conference.badge",
         docType = "com.example.conference.badge"

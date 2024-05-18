@@ -23,7 +23,7 @@ import org.mockito.ArgumentMatchers
 import org.mockito.kotlin.whenever
 
 private const val mockedDocUiNamePid = "National ID"
-private const val mockedDocUiNameMdl = "Driving License"
+private const val mockedDocUiNameMdl = "Insurance Policy"
 private const val mockedDocUiNameConferenceBadge = "EUDI Conference Badge"
 private const val mockedDocUiNameSampleData = "Load Sample Documents"
 

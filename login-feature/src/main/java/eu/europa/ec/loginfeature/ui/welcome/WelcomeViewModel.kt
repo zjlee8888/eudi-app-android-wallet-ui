@@ -30,7 +30,7 @@ import org.koin.android.annotation.KoinViewModel
 data class State(
     val showContent: Boolean = false,
     val enterAnimationDelay: Int = 350,
-    val enterAnimationDuration: Int = 750
+    val enterAnimationDuration: Int = 2050
 ) : ViewState
 
 sealed class Event : ViewEvent {

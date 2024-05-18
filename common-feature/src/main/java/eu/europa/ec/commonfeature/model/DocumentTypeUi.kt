@@ -36,6 +36,9 @@ fun DocumentType.toUiName(resourceProvider: ResourceProvider): String {
     return when (this) {
         DocumentType.PID -> resourceProvider.getString(R.string.pid)
         DocumentType.MDL -> resourceProvider.getString(R.string.mdl)
+        DocumentType.Policy -> resourceProvider.getString(R.string.policy)
+
+
         DocumentType.CONFERENCE_BADGE -> resourceProvider.getString(R.string.conference_badge)
         DocumentType.SAMPLE_DOCUMENTS -> resourceProvider.getString(R.string.load_sample_data)
         DocumentType.OTHER -> ""
